@@ -1,0 +1,54 @@
+EXERCIȚII — TEMĂ 27.05
+=======================
+
+1. La un concurs participă n candidați, pentru fiecare cunoscându-se numele,
+prenumele și nota finală. Să se afișeze candidații în ordine descrescătoare
+după notă, iar pentru candidații cu aceeași notă, în ordine alfabetică după
+nume, iar la nume identice după prenume.
+Exemplu: n = 5 și candidații:
+Popa Ion 9, Albu Ana 10,             se va afișa:
+Popa Dan 9, Vlad Mara 10,            Albu Ana 10, Vlad Mara 10,
+Mitea Ilie 8                          Popa Dan 9, Popa Ion 9,
+                                      Mitea Ilie 8
+
+2. Se cunoaște numărul de angajați ai unei firme. Pentru fiecare dintre ei se
+cunoaște data angajării (luna și anul). Cunoscându-se data curentă (luna și
+anul), să se afișeze vechimea medie a angajaților, exprimată în luni. Afișați
+și lista datelor de angajare ale angajaților cu vechimea mai mare decât cea
+medie.
+
+3. Se citesc de la tastatură datele referitoare la m locuitori ai unui bloc:
+nume, prenume, numărul de camere ale apartamentului și suprafața totală a
+apartamentului. Un locuitor primește o reducere la întreținere dacă suprafața
+pe fiecare cameră nu depășește o valoare limită S. Realizați un program care
+afișează locuitorii ce primesc reducerea, în ordine alfabetică.
+
+4. Se consideră un șir de n procente exprimate sub formă de fracții (numărător,
+numitor). Afișați numărul de procente egale cu primul procent citit.
+Exemplu: Pentru n = 4 și fracțiile „(1, 4), (25, 100), (3, 12), (1, 5)"
+se va afișa: „3" (prima, a doua și a treia fracție).
+
+5. Pentru n numere complexe, cărora li se cunosc partea reală și cea imaginară,
+să se afișeze în ordine descrescătoare argumentele (unghiurile) celor care
+aparțin intervalului [u, v]. Valorile reale u și v se citesc de la tastatură.
+Argumentele rezultate vor fi afișate cu 4 zecimale.
+
+6. Pentru o echipă de n jucători se cunosc următoarele date: numele, prenumele,
+vârsta și greutatea. Se dorește realizarea unui tabel care să cuprindă doar
+jucătorii care au împlinit 18 ani și care au greutatea cuprinsă în intervalul
+[g1, g2]. Jucătorii vor fi ordonați descrescător după greutate, iar în
+situația unor greutăți identice, vor fi ordonați crescător după nume. Se va
+afișa pentru fiecare jucător numele, prenumele și greutatea.
+
+7. Se consideră un șir de n puncte în plan, pentru fiecare cunoscându-se
+coordonatele întregi (x, y). Să se realizeze un program care identifică un
+cerc de rază r, în interiorul căruia se află numărul maxim de puncte.
+Punctele aflate pe cerc se vor considera în „interiorul" lui. Se vor afișa
+coordonatele centrului cercului determinat, care va fi obligatoriu unul
+dintre cele n puncte date.
+Exemplu: Pentru n = 5, r = 3 și punctele (-10, -5), (4, 1), (3, 3), (1, 2),
+(10, 8) se va afișa (3, 3).
+
+8. Se consideră un șir de n puncte în plan, pentru fiecare cunoscându-se
+coordonatele întregi (x, y). Să se realizeze un program care determină
+numărul maxim de puncte coliniare situate pe o dreaptă paralelă cu axa OY.
