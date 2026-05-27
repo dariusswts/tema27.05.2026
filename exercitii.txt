@@ -52,3 +52,64 @@ Exemplu: Pentru n = 5, r = 3 și punctele (-10, -5), (4, 1), (3, 3), (1, 2),
 8. Se consideră un șir de n puncte în plan, pentru fiecare cunoscându-se
 coordonatele întregi (x, y). Să se realizeze un program care determină
 numărul maxim de puncte coliniare situate pe o dreaptă paralelă cu axa OY.
+
+
+EXERCIȚII NIVEL AVANSAT
+========================
+
+9. Se citesc de la tastatură datele a n elevi: nume, prenume și notele
+obținute la m materii (m citit de la tastatură). Să se determine elevul
+(sau elevii) cu media cea mai apropiată de media clasei. În cazul mai
+multor elevi cu aceeași distanță față de media clasei, se vor afișa toți,
+ordonați alfabetic după nume, apoi după prenume. Mediile se vor afișa cu
+2 zecimale.
+
+10. Se consideră un șir de n cuvinte citite de la tastatură. Să se afișeze
+cel mai lung subșir de cuvinte consecutive astfel încât fiecare cuvânt
+din subșir să înceapă cu ultima literă a cuvântului precedent (jocul
+„fazan"). Dacă există mai multe subșiruri de lungime maximă, se va afișa
+primul găsit.
+Exemplu: Pentru n = 6 și cuvintele „arici, casa, avion, nor, raza, ana"
+se va afișa: „avion, nor, raza, ana" (lungime 4).
+
+11. Se consideră o matrice de n × m caractere reprezentând o hartă, în care
+'.' este teren liber și '#' este obstacol. Se citesc coordonatele a două
+puncte (xs, ys) și (xd, yd). Să se determine numărul minim de pași
+necesari pentru a ajunge din primul punct în al doilea, deplasarea
+făcându-se doar pe orizontală sau verticală, pe căsuțe libere. Dacă nu
+există drum, se va afișa „IMPOSIBIL".
+
+12. Pentru n persoane se cunosc numele, prenumele și o listă de prieteni
+(prin nume + prenume). Se citește o persoană P. Să se afișeze toate
+persoanele aflate la „distanță de prietenie" cel mult k față de P
+(prieten direct = distanță 1, prieten al unui prieten = distanță 2 etc.).
+Persoanele se vor afișa grupate pe distanțe, iar în cadrul fiecărui grup
+ordonate alfabetic.
+
+13. Se citește un șir de n numere naturale. Să se afișeze cel mai lung
+subșir strict crescător (nu neapărat format din elemente consecutive în
+șirul citit). Dacă există mai multe subșiruri de lungime maximă, se va
+afișa cel care apare primul lexicografic.
+Exemplu: Pentru n = 7 și șirul „3, 1, 4, 1, 5, 9, 2" se va afișa
+„1, 4, 5, 9" (lungime 4).
+
+14. Se citesc n intervale închise [a_i, b_i] cu numere întregi. Să se
+determine numărul minim de puncte de pe axa OX care „acoperă" toate
+intervalele (un punct acoperă un interval dacă se află în interiorul lui
+sau pe capete). Să se afișeze și valorile punctelor alese.
+Exemplu: Pentru n = 4 și intervalele [1, 4], [2, 5], [7, 9], [8, 10]
+se va afișa: 2 puncte, de exemplu „4, 9".
+
+15. Se consideră un șir de n produse, fiecare având un cod (șir de cifre,
+maxim 13 caractere), o denumire și un preț real. Să se determine grupele
+de produse „înrudite", două produse fiind înrudite dacă primele 4 cifre
+ale codului coincid. Pentru fiecare grupă se va afișa numărul de produse,
+prețul mediu (cu 2 zecimale) și denumirea produsului cu prețul maxim din
+grupă. Grupele se afișează în ordine crescătoare după prefixul comun.
+
+16. Se consideră un șir de n puncte în plan cu coordonate reale. Să se
+determine perechea de puncte aflate la distanță minimă și perechea aflată
+la distanță maximă. Se vor afișa coordonatele celor 4 puncte și cele două
+distanțe, cu 3 zecimale. În caz de egalitate se va alege perechea cu cel
+mai mic indice al primului punct, iar la indici egali, cel mai mic indice
+al celui de-al doilea punct.
